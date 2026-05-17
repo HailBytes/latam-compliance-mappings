@@ -98,8 +98,8 @@ The table below maps NIST CSF 2.0 Functions and Categories to the most relevant 
 | **Identify** | Phishing simulation identifies employee risk posture | Continuous discovery of internet-facing assets and exposures |
 | **Protect** | Security awareness training reduces human vulnerability | Exposure prioritization guides hardening efforts |
 | **Detect** | Simulated attack campaigns test detection/response awareness | Real-time monitoring of new assets, open ports, and vulnerabilities |
-| **Respond** | Incident response training modules | Alert workflows for newly discovered critical exposures |
-| **Recover** | Business continuity and recovery awareness content | Historical attack surface data supports post-incident analysis |
+| **Respond** | Incident response training modules (recognizing and reporting incidents) | Alert workflows for newly discovered critical exposures |
+| **Recover** | Incident response training covers employee awareness of recovery procedures; standalone business continuity modules are not part of the current built-in library | Historical attack surface data supports post-incident analysis |
 
 ---
 

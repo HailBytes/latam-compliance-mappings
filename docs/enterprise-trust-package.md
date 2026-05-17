@@ -20,7 +20,7 @@
 
 HailBytes operates on a **BYOC (Bring Your Own Cloud)** model. This is the foundational fact for your compliance and procurement review:
 
-- HailBytes software is deployed **into your AWS or Azure subscription** using infrastructure-as-code
+- HailBytes software is deployed **into your AWS or Azure subscription** via Marketplace
 - All data — training records, simulation results, vulnerability findings, employee information — resides **in your account**
 - HailBytes does not operate shared multi-tenant infrastructure for customer data
 - You control encryption keys, network access, data retention policies, and audit logs
@@ -62,7 +62,7 @@ HailBytes operates on a **BYOC (Bring Your Own Cloud)** model. This is the found
 
 ### Deployment Security
 
-- Infrastructure-as-code (IaC) deployment: all resources are version-controlled and auditable
+- Marketplace-based deployment: software distributed via AWS and Azure Marketplace into your subscription; deployment configurations are version-controlled and auditable
 - Least-privilege IAM: HailBytes components operate with minimum necessary permissions in your account
 - Encryption at rest and in transit: all data encrypted using your KMS keys (AWS) or Azure Key Vault keys
 - Network isolation: deployed within your VPC with configurable private subnet options
@@ -88,7 +88,7 @@ HailBytes products are distributed via AWS and Azure Marketplace, providing:
 
 | Tier | Response Time (Critical) | Response Time (Standard) | Availability |
 |---|---|---|---|
-| Enterprise | 1 hour | 8 business hours | 99.9% uptime SLA for HailBytes-managed components |
+| Enterprise | 4 hours (24/7/365) | 8 business hours | 99.9% uptime SLA for HailBytes-managed components |
 | Standard | 4 hours | 24 business hours | Best effort |
 
 *Note: Because HailBytes runs in your cloud account, overall system availability also depends on your chosen cloud region's SLA (AWS and Azure offer 99.99%+ SLAs for compute and storage services).*
