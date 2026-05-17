@@ -23,9 +23,9 @@ HailBytes ASM is a BYOC (Bring Your Own Cloud) attack surface management platfor
 | BACEN 4.893 Article | Requirement | HailBytes ASM Feature | Evidence / Output |
 |---|---|---|---|
 | **Art. 4 — Cybersecurity Policy** | Policy must address procedures for information classification, access control, and vulnerability management | ASM provides continuous data to feed vulnerability management procedures and asset classification | Asset inventory exports; vulnerability trend reports; data to inform classification decisions |
-| **Art. 4 §1(IV) — Vulnerability Testing** | Cybersecurity policy must include procedures for testing and monitoring for vulnerabilities | ASM performs continuous external vulnerability scanning — identifying open ports, unpatched services, misconfigurations, and exposed credentials | Scheduled scan reports; vulnerability finding history; remediation tracking; testing schedule evidence |
+| **Art. 4 §1(IV) — Vulnerability Testing** | Cybersecurity policy must include procedures for testing and monitoring for vulnerabilities | ASM performs continuous external vulnerability scanning — identifying open ports, unpatched services, misconfigurations, and exposed credentials | Scheduled scan reports; vulnerability finding history and trend tracking; testing schedule evidence |
 | **Art. 6 — Testing and Monitoring** | Institutions must implement mechanisms for testing and monitoring systems for vulnerability, including penetration testing on schedule | ASM's continuous external monitoring supplements scheduled penetration tests with real-time coverage — catching new exposures between test cycles | Continuous scan data showing discovery of new assets and vulnerabilities between pen test dates |
-| **Art. 7 — Third-Party Risk** | Institutions must assess and monitor cybersecurity risk from third-party service providers and partners | ASM monitors the external footprint of third-party domains and suppliers associated with the institution — identifying risk from vendors' exposed attack surface | Third-party domain monitoring reports; supplier risk scores; timeline of new exposures from vendor domains |
+| **Art. 7 — Third-Party Risk** | Institutions must assess and monitor cybersecurity risk from third-party service providers and partners | ASM monitors the external footprint of third-party domains and suppliers associated with the institution — identifying risk from vendors' exposed attack surface | Third-party domain monitoring reports; findings and new exposure alerts for monitored vendor domains |
 | **Art. 11 — Cloud Service Oversight** | Institutions using cloud must assess and monitor cloud service providers' security posture | ASM discovers and monitors cloud assets (public-facing S3 buckets, misconfigured cloud services, exposed APIs) across the institution's cloud footprint | Cloud asset discovery reports; misconfiguration findings; API exposure inventory |
 | **Art. 12–13 — Incident Notification** | Relevant cybersecurity incidents must be reported to BCB within 72 hours | ASM's real-time alerting for critical exposures supports rapid detection — reducing the window between exposure creation and institutional awareness | Time-to-detect metrics; alert history; evidence that monitoring was active at time of incident |
 | **Art. 14 — Third-Party Contracts** | Contracts with technology service providers must include security standards and audit rights | HailBytes ASM is deployed in the customer's own account (BYOC) — the customer controls the data, meets BCB audit rights requirements without depending on vendor cooperation | Customer is the data controller; all scan data and reports are in the customer's BCB-auditable account |
@@ -64,9 +64,9 @@ The BACEN 4.893 annual board report should include cybersecurity testing and mon
 
 | Report Section | ASM Data Source |
 |---|---|
-| Vulnerability testing results | Continuous scan findings; remediation rates; critical/high/medium breakdown |
+| Vulnerability testing results | Continuous scan findings; critical/high/medium breakdown |
 | New risks identified during the year | Timeline of newly discovered assets and first-seen vulnerabilities |
-| Third-party risk assessment | Supplier domain monitoring results |
+| Third-party risk assessment | Vendor domain monitoring results and new exposure alerts |
 | Cloud security posture | Cloud asset misconfiguration findings |
 | Improvement plan progress | Year-over-year attack surface reduction metrics |
 
