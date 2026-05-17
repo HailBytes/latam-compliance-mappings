@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="background:#1a1a2e;padding:20px 40px;border-radius:8px;display:inline-block;">
   <img src="https://hailbytes.com/images/icons/hb_hb_white_horizontal.png" alt="HailBytes" width="300"/>
 </div>
 
