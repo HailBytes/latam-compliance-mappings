@@ -39,7 +39,7 @@ You manage:
 - Audit log access
 
 HailBytes provides:
-- The software, deployed as infrastructure-as-code into your account
+- The software, deployed via AWS and Azure Marketplace into your account
 - Updates and support
 - No access to your data
 
@@ -95,7 +95,7 @@ LFPDPPP Art. 37 requires that international data transfers provide equivalent da
 
 ## Architecture Overview
 
-HailBytes BYOC deploys using infrastructure-as-code (Terraform/CloudFormation) into your cloud account:
+HailBytes BYOC deploys via AWS and Azure Marketplace into your cloud account:
 
 ```
 ┌─────────────────────────────────────────────┐

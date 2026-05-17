@@ -172,7 +172,7 @@ Aggravating factors include: recidivism, good faith of the agent, the degree of 
 | **Legal bases** | 10 (Art. 7) | 6 (Art. 6) |
 | **Sensitive data** | Art. 11 | Art. 9 |
 | **DPO** | Required for controllers | Required based on risk/scale |
-| **Breach notification** | "Reasonable timeframe" per ANPD guidance (typically 2 business days awareness + full report) | 72 hours to supervisory authority |
+| **Breach notification** | 3 business days for initial communication to ANPD per Res. CD/ANPD No. 15/2023; supplementary report within ANPD-specified deadline | 72 hours to supervisory authority |
 | **Max fine** | 2% Brazil revenue / R$50M per infraction | 4% global turnover / €20M |
 | **Adequacy** | ANPD maintains its own adequacy list | European Commission maintains EU list |
 | **Data subject rights** | Broadly similar; portability pending ANPD regulation | Fully operative |
