@@ -129,7 +129,7 @@ International transfers (*transferências internacionais de dados pessoais*) are
 | **Vital interests** | Protection of life or physical integrity |
 | **Public registry data** | Transfer of data from public registers |
 
-> **BYOC relevance:** When a customer deploys HailBytes in their own cloud account in Brazil, training data and logs never leave the customer's environment — eliminating international transfer concerns entirely.
+> **BYOC relevance:** When a customer deploys HailBytes in their own cloud account in Brazil, training data and logs never leave the customer's environment — eliminating international transfer concerns entirely. Region selection is a customer Terraform / Marketplace-launch choice; no HailBytes marketplace image is pinned to a specific Brazilian region.
 
 ---
 
@@ -172,7 +172,7 @@ Aggravating factors include: recidivism, good faith of the agent, the degree of 
 | **Legal bases** | 10 (Art. 7) | 6 (Art. 6) |
 | **Sensitive data** | Art. 11 | Art. 9 |
 | **DPO** | Required for controllers | Required based on risk/scale |
-| **Breach notification** | 3 business days for initial communication to ANPD per Res. CD/ANPD No. 15/2023; supplementary report within ANPD-specified deadline | 72 hours to supervisory authority |
+| **Breach notification** | **3 business days** (*3 dias úteis*) for the preliminary communication to ANPD per Res. CD/ANPD No. **15/2024** (which re-issued and updated the procedures previously in Res. 15/2023); supplementary report within ANPD-specified deadline | 72 hours to supervisory authority |
 | **Max fine** | 2% Brazil revenue / R$50M per infraction | 4% global turnover / €20M |
 | **Adequacy** | ANPD maintains its own adequacy list | European Commission maintains EU list |
 | **Data subject rights** | Broadly similar; portability pending ANPD regulation | Fully operative |
@@ -186,5 +186,5 @@ Aggravating factors include: recidivism, good faith of the agent, the degree of 
 2. **DPO is mandatory** — your vendor must have a publicly identified Encarregado
 3. **International transfers require a legal mechanism** — BYOC deployment eliminates this risk for training/security data
 4. **Consent is not the only legal basis** — legitimate interest and contractual necessity are commonly used in B2B contexts
-5. **ANPD is maturing fast** — expect more prescriptive guidance on security measures and breach notification in 2024–2025
+5. **ANPD is maturing fast** — expect more prescriptive guidance on security measures and breach notification; Res. CD/ANPD No. 15/2024 codified the 3-business-day preliminary-notification window
 6. **Map to GDPR** — if you are GDPR-compliant, LGPD alignment is achievable with targeted gap analysis
