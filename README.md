@@ -51,7 +51,7 @@ Este repositorio contiene mapeos de los controles de los productos HailBytes (SA
 | 🌎 [Regional](./frameworks/regional/) | [ISO 27001 LatAm](./frameworks/regional/iso-27001-latam-notes.md) · [NIST CSF (Portuguese)](./frameworks/regional/nist-csf-portuguese.md) |
 | 🗺️ [Mappings](./mappings/) | [SAT → LGPD](./mappings/hailbytes-sat-to-lgpd.md) · [ASM → BACEN 4893](./mappings/hailbytes-asm-to-bacen-4893.md) · [SAT → LFPDPPP](./mappings/hailbytes-sat-to-lfpdppp.md) |
 | 📄 [Templates](./templates/) | [DPA PT-BR](./templates/data-processing-agreement-pt-br.md) · [IR Runbook PT-BR](./templates/incident-response-runbook-pt-br.md) · [Vendor Risk PT-BR](./templates/vendor-risk-assessment-pt-br.md) |
-| 📚 [Docs](./docs/) | [Why BYOC Matters](./docs/why-byoc-matters-for-latam-compliance.md) · [Enterprise Trust Package](./docs/enterprise-trust-package.md) |
+| 📚 [Docs](./docs/) | [Why BYOC Matters](./docs/why-byoc-matters-for-latam-compliance.md) · [Shared-Responsibility Matrix](./docs/byoc-shared-responsibility-matrix.md) · [Glossary](./docs/glossary.md) · [Enterprise Trust Package](./docs/enterprise-trust-package.md) |
 
 ---
 
@@ -63,7 +63,7 @@ Este repositorio contiene mapeos de los controles de los productos HailBytes (SA
 | BACEN Resolution 4.893 | 🇧🇷 Brazil (Financial) | BCB | 2021 | [bacen-4893.md](./frameworks/brazil/bacen-4893.md) |
 | BACEN Resolution 4.658 | 🇧🇷 Brazil (Financial) | BCB | 2018 | [bacen-4658.md](./frameworks/brazil/bacen-4658.md) |
 | Marco Civil da Internet | 🇧🇷 Brazil | CGI.br / Courts | 2014 | [marco-civil.md](./frameworks/brazil/marco-civil.md) |
-| LFPDPPP | 🇲🇽 Mexico | INAI | 2010 | [lfpdppp.md](./frameworks/mexico/lfpdppp.md) |
+| LFPDPPP (new statute) | 🇲🇽 Mexico | SABG (formerly INAI) | 2025 (replaced 2010 law) | [lfpdppp.md](./frameworks/mexico/lfpdppp.md) |
 | Ley 25.326 | 🇦🇷 Argentina | AAIP | 2000 | [ley-25326.md](./frameworks/argentina/ley-25326.md) |
 | ISO 27001:2022 LatAm Notes | 🌎 Regional | INMETRO / EMA / OAA | 2022 | [iso-27001-latam-notes.md](./frameworks/regional/iso-27001-latam-notes.md) |
 | NIST CSF 2.0 (Portuguese Markets) | 🌎 Regional | NIST | 2024 | [nist-csf-portuguese.md](./frameworks/regional/nist-csf-portuguese.md) |
@@ -71,6 +71,8 @@ Este repositorio contiene mapeos de los controles de los productos HailBytes (SA
 ---
 
 ## Product → Framework Mappings
+
+See the [**mappings coverage index**](./mappings/README.md) for the full product × framework matrix, including which pairs are not yet mapped.
 
 | Product | Framework | Country | File |
 |---|---|---|---|
@@ -101,6 +103,7 @@ HailBytes products are deployed in your own AWS or Azure account — your data n
 For organizations subject to LGPD Art. 33 (international transfer restrictions), BACEN 4.893 Art. 14 (BCB audit rights), or LFPDPPP Art. 37 (cross-border transfer rules), BYOC eliminates the primary data sovereignty risk of traditional SaaS:
 
 → [Read the full BYOC compliance analysis](./docs/why-byoc-matters-for-latam-compliance.md)
+→ [See the per-claim shared-responsibility matrix](./docs/byoc-shared-responsibility-matrix.md) (which controls HailBytes guarantees vs. which depend on your configuration)
 
 ---
 
@@ -116,6 +119,12 @@ HailBytes provides BYOC (Bring Your Own Cloud) security awareness training and a
 - [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=hailbytes)
 
 **Enterprise inquiries:** [hailbytes.com/contact](https://hailbytes.com/contact)
+
+---
+
+## Changelog
+
+Notable accuracy and currency corrections are tracked in [CHANGELOG.md](./CHANGELOG.md).
 
 ---
 

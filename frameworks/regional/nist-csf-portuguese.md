@@ -110,7 +110,7 @@ The table below maps NIST CSF 2.0 Functions and Categories to the most relevant 
 1. **Start with the Govern function** — establish your data protection governance program (LGPD Art. 50) before optimizing individual controls
 2. **Use Identify to build your data map** — NIST ID.AM (asset management) is directly equivalent to the processing activity records required by LGPD Art. 37
 3. **Map Protect controls to LGPD Art. 46** — any Protect implementation is simultaneously evidence for LGPD security measure compliance
-4. **Build Detect + Respond around LGPD Art. 48** — your breach detection and response capabilities must support the ANPD notification timeline (ANPD Res. CD/ANPD No. 15/2023: 3 business days for preliminary notice)
+4. **Build Detect + Respond around LGPD Art. 48** — your breach detection and response capabilities must support the ANPD notification timeline (ANPD Res. CD/ANPD No. 15/2024: 3 business days for preliminary notice)
 5. **Use the CSF Tier model for risk communication** — CSF Tiers (Partial → Risk Informed → Repeatable → Adaptive) provide a maturity language that boards understand
 
 ---

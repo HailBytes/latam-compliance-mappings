@@ -6,17 +6,24 @@
 |---|---|
 | **Jurisdiction** | United Mexican States (*Estados Unidos Mexicanos*) |
 | **Law** | Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) |
-| **Enacted** | July 5, 2010 |
-| **Effective** | July 6, 2010 |
-| **Implementing Regulations** | Reglamento de la LFPDPPP (December 21, 2011) |
-| **Regulator** | Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI) |
-| **Official Text** | [diputados.gob.mx](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf) |
+| **Current statute** | New LFPDPPP published March 20, 2025; effective March 21, 2025 — **abrogates the 2010 law** |
+| **Prior statute** | Original LFPDPPP enacted July 5, 2010 (effective July 6, 2010); Reglamento de la LFPDPPP (December 21, 2011) |
+| **Regulator** | Secretaría Anticorrupción y Buen Gobierno (SABG) — assumed the data-protection mandate after **INAI was dissolved** in the 2025 reform |
+| **Official Text** | [diputados.gob.mx](https://www.diputados.gob.mx/LeyesBiblio/) |
+
+> ### ⚠️ 2025 Reform — Read First
+>
+> Mexico **replaced the 2010 LFPDPPP** with a new statute published in the *Diario Oficial de la Federación* on **March 20, 2025** (effective the following day). The autonomous regulator **INAI was dissolved**, and its data-protection functions were transferred to the **Secretaría Anticorrupción y Buen Gobierno (SABG)** within the federal executive branch.
+>
+> Most substantive obligations carry forward — the data-protection **principles**, **ARCO rights**, the **Aviso de Privacidad** requirement, and the **sensitive-data** regime remain the backbone of the law. Notable additions in the 2025 reform include an express right to **object to automated decision-making** that significantly affects a data subject, explicit **data-retention / deletion** duties, and reinforced **confidentiality** obligations surviving termination of the processing relationship.
+>
+> Sections below describing INAI's role should be read as referring to its **successor authority (SABG)**. References to specific articles reflect the law's long-standing structure; confirm the exact article numbering against the current consolidated text before relying on it in filings.
 
 ---
 
 ## Overview
 
-The LFPDPPP is Mexico's primary private-sector personal data protection law. Enacted in 2010, it was the first comprehensive data protection statute in Latin America and remains the primary framework governing how private companies (*particulares*) in Mexico collect, use, store, and share personal data.
+The LFPDPPP is Mexico's primary private-sector personal data protection law. The original 2010 statute was the first comprehensive data protection law in Latin America; it was **abrogated and replaced by a new LFPDPPP in March 2025** (see the reform note above). The law remains the primary framework governing how private companies (*particulares*) in Mexico collect, use, store, and share personal data.
 
 The law applies to any natural person or private legal entity (*persona física o moral*) that processes personal data, regardless of where they are located, if they target individuals in Mexico or process data collected in Mexico.
 
@@ -123,9 +130,9 @@ Transfers may be formalized through:
 
 ---
 
-## INAI Enforcement
+## Enforcement (formerly INAI, now SABG)
 
-The INAI (*Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales*) is an autonomous constitutional body that enforces the LFPDPPP.
+Until the 2025 reform, the LFPDPPP was enforced by **INAI** (*Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales*), an autonomous constitutional body. The 2025 reform **dissolved INAI** and transferred its data-protection enforcement mandate to the **Secretaría Anticorrupción y Buen Gobierno (SABG)**. The enforcement powers below carry over to the successor authority.
 
 ### Powers
 
@@ -164,6 +171,6 @@ INAI enforcement priorities include: financial services, healthcare, telecommuni
 1. **Aviso de Privacidad is non-negotiable** — it must be presented before or at collection; missing it is the most commonly sanctioned violation
 2. **ARCO requests have hard deadlines** — 20 business days to respond; build this into your customer support workflow
 3. **Sensitive data requires express written consent** — any product handling health, biometric, or belief data needs documented consent chains
-4. **INAI is active** — the regulator has investigated major brands across retail, financial services, and HR platforms
+4. **The regulator is active (now SABG, formerly INAI)** — enforcement has targeted major brands across retail, financial services, and HR platforms; the 2025 reform moved this mandate from INAI to the Secretaría Anticorrupción y Buen Gobierno
 5. **Cross-border transfers need a legal mechanism** — BYOC deployment keeps data in Mexico, eliminating the transfer question entirely
 6. **B2B contracts must include data protection clauses** — the *Responsable/Encargado* (controller/processor) relationship must be formalized contractually
