@@ -15,7 +15,7 @@ Este runbook define os procedimentos operacionais para detecção, contenção, 
 **Obrigações legais cobertas:**
 - **LGPD Art. 48:** Notificação à ANPD e aos Titulares em caso de incidente de segurança relevante
 - **BACEN 4.893 Art. 12–13:** Notificação ao Banco Central do Brasil para incidentes relevantes em instituições financeiras (prazo: 72 horas)
-- **LGPD Resolução CD/ANPD No. 15/2023:** Regulamenta prazos e conteúdo da notificação à ANPD
+- **LGPD Resolução CD/ANPD No. 15/2024:** Regulamenta prazos e conteúdo da notificação à ANPD
 
 ---
 
@@ -52,8 +52,8 @@ Este runbook define os procedimentos operacionais para detecção, contenção, 
 |---|---|---|---|
 | **Equipe interna / CISO** | Imediato (dentro de 1h do conhecimento) | Política interna | Natureza do incidente, sistemas afetados, ações iniciais |
 | **Encarregado (DPO)** | Dentro de 4h | Política interna | Briefing completo para avaliar obrigação de notificação externa |
-| **ANPD — Comunicação Inicial** | **Até 3 dias úteis** do conhecimento do incidente (Res. CD/ANPD 15/2023) | LGPD Art. 48 + Res. ANPD 15/2023 | Dados iniciais: natureza, categorias de dados, medidas de contenção |
-| **ANPD — Comunicação Complementar** | Prazo estabelecido pela ANPD na resposta inicial | Res. ANPD 15/2023 | Relatório completo com análise de causa raiz |
+| **ANPD — Comunicação Inicial** | **Até 3 dias úteis** do conhecimento do incidente (Res. CD/ANPD 15/2024) | LGPD Art. 48 + Res. ANPD 15/2024 | Dados iniciais: natureza, categorias de dados, medidas de contenção |
+| **ANPD — Comunicação Complementar** | Prazo estabelecido pela ANPD na resposta inicial | Res. ANPD 15/2024 | Relatório completo com análise de causa raiz |
 | **Banco Central (BACEN)** | **Até 72 horas** do conhecimento (incidentes relevantes) | BACEN 4.893 Art. 12 | Natureza, sistemas afetados, impacto estimado, medidas tomadas |
 | **Titulares afetados** | Prazo razoável / conforme orientação ANPD | LGPD Art. 48 §1 | Natureza do incidente, dados envolvidos, medidas recomendadas |
 
@@ -129,7 +129,7 @@ Este runbook define os procedimentos operacionais para detecção, contenção, 
 
 Utilizar o formulário oficial disponível em: [gov.br/anpd](https://www.gov.br/anpd/)
 
-**Conteúdo obrigatório (Res. CD/ANPD 15/2023):**
+**Conteúdo obrigatório (Res. CD/ANPD 15/2024):**
 - [ ] Data e hora do conhecimento do incidente
 - [ ] Natureza dos dados pessoais afetados
 - [ ] Categorias e quantidade estimada de titulares afetados

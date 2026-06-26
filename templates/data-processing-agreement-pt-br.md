@@ -155,7 +155,7 @@ O Operador implementará, no mínimo, as seguintes medidas de segurança (*medid
 | Prazo | Ação |
 |---|---|
 | **Imediatamente / até 48h** do conhecimento | Notificar o Controlador por escrito com: natureza do incidente, dados afetados, medidas de contenção iniciais, ponto de contato |
-| **Até 72h** do conhecimento | Fornecer relatório completo ao Controlador para viabilizar notificação à ANPD (conforme Resolução CD/ANPD No. 15/2023) |
+| **Até 72h** do conhecimento | Fornecer relatório completo ao Controlador para viabilizar notificação à ANPD (conforme Resolução CD/ANPD No. 15/2024) |
 | **Prazo acordado** | Cooperar na investigação e remediação; fornecer evidências solicitadas pelo Controlador ou pela ANPD |
 
 8.2. A notificação inicial deverá ser enviada para: [E-MAIL DO DPO / ENCARREGADO DO CONTROLADOR]

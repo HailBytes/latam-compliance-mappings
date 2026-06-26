@@ -20,6 +20,13 @@ HailBytes SAT is a phishing simulation and security awareness training platform 
 > deletion timelines depend on customer configuration. See
 > [`docs/byoc-shared-responsibility-matrix.md`](../docs/byoc-shared-responsibility-matrix.md).
 
+> **2025 reform note:** Mexico replaced the 2010 LFPDPPP with a new statute
+> effective March 21, 2025, and dissolved INAI in favor of the Secretaría
+> Anticorrupción y Buen Gobierno (SABG). The article-level mappings below
+> reflect the law's long-standing structure (consent, sensitive data, ARCO,
+> Aviso de Privacidad), which carries forward. See
+> [`frameworks/mexico/lfpdppp.md`](../frameworks/mexico/lfpdppp.md) for the full reform note.
+
 ---
 
 ## Compliance Mapping Table
