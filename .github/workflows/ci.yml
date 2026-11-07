@@ -1,0 +1,24 @@
+name: Docs check
+
+on:
+  pull_request:
+    paths: ["**.md", "scripts/check_links.py", ".github/workflows/ci.yml"]
+  push:
+    branches: [main]
+    paths: ["**.md", "scripts/check_links.py", ".github/workflows/ci.yml"]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check relative Markdown links
+        run: python3 scripts/check_links.py
